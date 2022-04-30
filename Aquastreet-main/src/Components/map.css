@@ -1,0 +1,46 @@
+.map-container {
+    height: 100vh;
+    border-radius: 0 20px;
+}
+    
+
+.modal{
+    min-height: 600px;
+    min-width: 300px;
+}
+
+.fish-detail{
+    display: flex;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 10px;
+    width: 300px;
+    margin-left: 30px;
+}
+.fish-name{
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.fish-detail h3{
+    margin-bottom: 0px;
+   font-size: 14px;
+   margin-top: 7px;
+   font-weight: bold;
+}
+
+.fish-detail p{
+    margin-top: 5px;
+}
+
+
+
+.fishImage{
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
